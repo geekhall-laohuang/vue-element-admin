@@ -5,7 +5,7 @@
         v-for="(item, index) in breadcrumbData"
         :key="item.path"
       >
-        <!-- 不可点击项 -->
+        <!-- 不可点击项  -->
         <span v-if="index === breadcrumbData.length - 1" class="no-redirect">{{
           generateTitle(item.meta.title)
         }}</span>
